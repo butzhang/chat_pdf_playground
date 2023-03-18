@@ -1,3 +1,3 @@
-from project_name import create_app_wsgi
+from chat_pdf_playground import create_app_wsgi
 
 app = application = create_app_wsgi()  # noqa

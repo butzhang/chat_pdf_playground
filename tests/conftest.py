@@ -1,9 +1,9 @@
 import sys
 import pytest
 
-from project_name import create_app
-from project_name.ext.commands import populate_db
-from project_name.ext.database import db
+from chat_pdf_playground import create_app
+from chat_pdf_playground.ext.commands import populate_db
+from chat_pdf_playground.ext.database import db
 
 
 @pytest.fixture(scope="session")

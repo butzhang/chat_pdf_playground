@@ -2,8 +2,8 @@ FROM python:3.7-alpine
 COPY . /app
 WORKDIR /app
 RUN pip install .
-RUN project_name create-db
-RUN project_name populate-db
-RUN project_name add-user -u admin -p admin
+RUN chat_pdf_playground create-db
+RUN chat_pdf_playground populate-db
+RUN chat_pdf_playground add-user -u admin -p admin
 EXPOSE 5000
-CMD ["project_name", "run"]
+CMD ["chat_pdf_playground", "run"]

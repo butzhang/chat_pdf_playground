@@ -1,8 +1,8 @@
 import click
 
-from project_name.ext.auth import create_user
-from project_name.ext.database import db
-from project_name.models import Product
+from chat_pdf_playground.ext.auth import create_user
+from chat_pdf_playground.ext.database import db
+from chat_pdf_playground.models import Product
 
 
 def create_db():
